@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.left-container {
+    background-color: #FCC40C;
+    height: 100%;
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.main-container {
+    width: 90vw;
+    height: 95vh;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.right-container {
+    background-color: #FBE8B5;
+    width: 40%;
+    height: 100%;
+}
+
+.beads {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FCC40C;
+    margin-bottom: 10px;
+}
+
+.bead-black {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.beads-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    gap: 10px;
+    justify-content: left;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.heading-main {
+    font-size: 10rem;
+    font-weight: bolder;
+}
+
+.sub-heading {
+    letter-spacing: 6px;
+}
+
+.introduction-text {
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+.pikachuimage {
+    position: absolute;
+    left: 860px;
+    top: 160px;
+    height: 600px;
+    width: 600px;
+}
+
+.hamburgericon {
+    position: relative;
+    top: 40px;
+    left: 600px;
+}   
+
+.beads-main {
+    position: relative;
+    top: 310px;
+    left: 290px;
+}
+
